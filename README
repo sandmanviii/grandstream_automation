@@ -1,0 +1,7 @@
+Purpose of this project is to optimize configuration of grandstream atas.
+
+Path needs to be changed for chromedriver as it is currently following an absolute path that is system specific.
+
+As of now, this will only build out one profile and add authentication information for port one of ata, but can be used across any HT product.
+
+Values that need to be changed are the number, passwd, and domain. Other values such as dns can be changed, but aren't required.
